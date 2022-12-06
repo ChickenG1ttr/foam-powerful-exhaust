@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>UV.DIP</title>
+  <script>
+    function aboutblank() {
+      var win = window.open();
+      win.document.body.style.margin = "0";
+      win.document.body.style.height = "100vh";
+      var f = win.document.createElement("iframe");
+      window.focus();
+      var url = "https://foam-powerful-exhaust.glitch.me/";
+      if (!url) return;
+      f.style.width = "100%";
+      f.style.height = "100%";
+      f.style.border = "none";
+      f.style.margin = "0";
+      win.document.body.appendChild(f);
+      f.src = url;
+    }
+  </script>
+    </head>
+  <body>
+  <center>
+    <div class="head">
+      <h1>ultraviolet</h1>
+    </div>
+
+    <div class="center2">
+      <img
+        src="https://cdn.glitch.global/08b4ac66-1815-482b-a7b8-ed25560d4aa1/dip.jpeg"
+        height="30px"
+      />
+      <form class="dipform">
+        <input class="dipinput" placeholder="DIP" />
+      </form>
+      <img
+        src="https://cdn.glitch.global/08b4ac66-1815-482b-a7b8-ed25560d4aa1/uv.png"
+        height="30px"
+      />
+      <form class="uvform">
+        <input class="uvinput" placeholder="UV" />
+      </form>
+      <script src="/dip/dip.config.js"></script>
+      <script src="/dip/dip.page.js"></script>
+      <script src="/uv/uv.bundle.js"></script>
+      <script src="/uv/uv.config.js"></script>
+      <script src="/index.js"></script>
+    </div>
+  </center>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap");
+    img {
+      position: relative;
+      right: 28%;
+      top: 35px;
+      border-radius: 10px;
+    }
+    input {
+      padding: 10px;
+      width: 50%;
+      border: none;
+      border-radius: 999999999px;
+      color: black;
+      outline: none;
+      background: rgba(255, 255, 255, 0.7);
+    }
+    .center2 {
+      position: absolute;
+      width: 50%;
+      padding: 5px;
+      top: -50%;
+      left: 50%;
+      transform: translate(-50%, 195%);
+    }
+    .head,
+    h1 {
+      text-align: center;
+      font-family: Montserrat;
+      color: white;
+      font-weight: 100;
+      
+    }
+    body {
+      background: url(https://cdn.glitch.me/18d24e3b-0588-4e9b-b576-3dac21237e60/monterey%20dark.jpg?v=1665584867569)
+        center fixed;
+      background-size: cover;
+      font-family: Montserrat;
+    }
+    p {
+      color: gray;
+    }
+    ::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: gray;
+      opacity: 1; /* Firefox */
+    }
+    a {
+      cursor: pointer;
+      color: white;
+      background: #313178;
+      border: 0px;
+      padding: 10px;
+      border-radius: 20px;
+      font-family: Montserrat;
+      text-decoration: none;
+    }
+
+    button {
+      cursor: pointer;
+      color: white;
+      background: #313178;
+      border: 0px;
+      padding: 10px;
+      border-radius: 20px;
+      font-family: Montserrat;
+    }
+  </style>
+  </body>
+</html>
