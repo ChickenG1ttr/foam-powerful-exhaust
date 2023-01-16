@@ -1,0 +1,1 @@
+function aboutblank(){var e=window.open();e.document.body.style.margin="0",e.document.body.style.height="100vh";var n=e.document.createElement("iframe");window.focus();var o=window.location.href;o&&(n.style.width="100%",n.style.height="100%",n.style.border="none",n.style.margin="0",e.document.body.appendChild(n),n.src=o)}
